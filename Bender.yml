@@ -1,0 +1,10 @@
+package:
+  name: dummy_vip
+  authors:
+    - "Ren You <rchang003@e.ntu.edu.sg>"
+
+sources: 
+  #dummy_vip
+  files:
+    - rtl/dummy_submodule.sv
+    - rtl/dummy_top.sv
