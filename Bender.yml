@@ -5,6 +5,11 @@ package:
 
 sources: 
   #dummy_vip
+  defines:
+    ENABLE_DUMMY_VIP: ~
   files:
     - rtl/dummy_submodule.sv
     - rtl/dummy_top.sv
+
+  include_dirs:
+    - include
